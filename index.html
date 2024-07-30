@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TikTok Clone</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOX ICONS LINK  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <div class="header">
+      <div class="align-element">
+        <!-- LOGO  -->
+        <a href="#" class="logo">
+          <span><i class="bx bxl-tiktok"></i></span>
+          <h4>TikTok</h4>
+        </a>
+        <!-- SEARCH INPUT  -->
+        <div class="search-input">
+          <div class="input-box">
+            <input type="text" placeholder="Search" />
+            <button><i class="bx bx-search"></i></button>
+          </div>
+        </div>
+        <!-- SMART ICONS  -->
+        <div class="smart-icons">
+          <button class="upload-btn">
+            <i class="bx bx-plus"></i>
+            Upload
+          </button>
+          <span><i class="bx bx-send"></i></span>
+          <span class="notification">
+            <i class="bx bx-message-dots"></i>
+            <span class="notification-badge">6</span>
+          </span>
+          <div class="profile">
+            <img src="img/profile.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SIDEBAR  -->
+    <div class="sidebar">
+      <!-- FOR YOU  -->
+      <ul>
+        <li class="active">
+          <span><i class="bx bxs-home"></i></span>
+          <span>For You</span>
+        </li>
+        <li>
+          <span><i class="bx bx-trending-up"></i></span>
+          <span class="new">Explore <span>New</span></span>
+        </li>
+        <li>
+          <span><i class="bx bx-user-plus"></i></span>
+          <span>Following</span>
+        </li>
+        <li>
+          <span><i class="bx bx-group"></i></span>
+          <span>Friends</span>
+        </li>
+        <li>
+          <span><i class="bx bx-video-plus"></i></span>
+          <span>Live</span>
+        </li>
+        <li>
+          <img src="img/profile.webp" class="channel-img" alt="" />
+          <span>Profile</span>
+        </li>
+      </ul>
+      <!-- FOLLOWING ACCOUNTS  -->
+      <ul class="following">
+        <h4>Following accounts</h4>
+        <li>
+          <img src="img/user-1.jpg" class="channel-img" alt="" />
+          <div class="channel-info">
+            <h5>jannie270</h5>
+            <span>Jannie</span>
+          </div>
+        </li>
+        <li>
+          <img src="img/user-2.jpg" class="channel-img" alt="" />
+          <div class="channel-info">
+            <h5>albert_two</h5>
+            <span>Albert</span>
+          </div>
+        </li>
+        <li>
+          <img src="img/user-3.jpg" class="channel-img" alt="" />
+          <div class="channel-info">
+            <h5>diana.dd90</h5>
+            <span>Diana</span>
+          </div>
+        </li>
+        <li>
+          <img src="img/user-4.jpg" class="channel-img" alt="" />
+          <div class="channel-info">
+            <h5>mtv089</h5>
+            <span>Motivation</span>
+          </div>
+        </li>
+      </ul>
+      <!-- INFORMATION  -->
+      <ul class="information">
+        <li>
+          <span><i class="bx bxl-bitcoin"></i></span>
+          <span>Create TikTok effects get a reward</span>
+        </li>
+        <li>
+          <a href="#">Company</a>
+        </li>
+        <li>
+          <a href="#">Program</a>
+        </li>
+        <li>
+          <a href="#">Term & Policies</a>
+        </li>
+        <p>&copy; 2024 TikTok</p>
+      </ul>
+    </div>
+    <!-- VIDEOS  -->
+    <div class="videos">
+      <div class="align-element">
+        <!-- VIDEO 1 -->
+        <div class="video">
+          <div class="video-box">
+            <div class="video-info">
+              <div class="video-section">
+                <video
+                  src="vid/video-1.mp4"
+                  class="videoPlayer"
+                  loop
+                  poster="img/video-1.jpeg"
+                ></video>
+                <span class="video-play-icon"><i class="bx bx-play"></i></span>
+              </div>
+              <div class="user-info">
+                <h5>novakhd</h5>
+                <p>Ronaldo 💀🔥 #ronaldo #fyp #edit #football</p>
+              </div>
+            </div>
+            <div class="video-desc">
+              <div class="user-profile">
+                <img src="img/user-5.jpeg" alt="" />
+                <span class="follow">
+                  <i class="bx bx-plus"></i>
+                </span>
+              </div>
+              <ul>
+                <li>
+                  <span class="like"><i class="bx bxs-heart"></i></span>
+                  <span>7.9M</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-message-rounded-dots"></i></span>
+                  <span>80k</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-bookmark"></i></span>
+                  <span>999.5k</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-share bx-flip-horizontal"></i></span>
+                  <span>500.5k</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- VIDEO 2 -->
+        <div class="video">
+          <div class="video-box">
+            <div class="video-info">
+              <div class="video-section">
+                <video
+                  src="vid/video-2.mp4"
+                  class="videoPlayer"
+                  loop
+                  poster="img/video-2.jpeg"
+                ></video>
+                <span class="video-play-icon"><i class="bx bx-play"></i></span>
+              </div>
+              <div class="user-info">
+                <h5>printstored</h5>
+                <p>Why would he do this 😔 // #christyson #mrbeast #old</p>
+              </div>
+            </div>
+            <div class="video-desc">
+              <div class="user-profile">
+                <img src="img/user-6.jpeg" alt="" />
+                <span class="follow">
+                  <i class="bx bx-plus"></i>
+                </span>
+              </div>
+              <ul>
+                <li>
+                  <span class="like"><i class="bx bxs-heart"></i></span>
+                  <span>83k</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-message-rounded-dots"></i></span>
+                  <span>1597</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-bookmark"></i></span>
+                  <span>34k</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-share bx-flip-horizontal"></i></span>
+                  <span>35k</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- VIDEO 3 -->
+        <div class="video">
+          <div class="video-box">
+            <div class="video-info">
+              <div class="video-section">
+                <video
+                  src="vid/video-3.mp4"
+                  class="videoPlayer"
+                  loop
+                  poster="img/video-3.jpeg"
+                ></video>
+                <span class="video-play-icon"><i class="bx bx-play"></i></span>
+              </div>
+              <div class="user-info">
+                <h5>mrbeast</h5>
+                <p>
+                  This was a struggle lol 😅 sprinting with more and more money
+                </p>
+              </div>
+            </div>
+            <div class="video-desc">
+              <div class="user-profile">
+                <img src="img/user-7.jpeg" alt="" />
+                <span class="follow">
+                  <i class="bx bx-plus"></i>
+                </span>
+              </div>
+              <ul>
+                <li>
+                  <span class="like"><i class="bx bxs-heart"></i></span>
+                  <span>3.7M</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-message-rounded-dots"></i></span>
+                  <span>64.3k</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-bookmark"></i></span>
+                  <span>88.7k</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-share bx-flip-horizontal"></i></span>
+                  <span>175.4k</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- VIDEO 4 -->
+        <div class="video">
+          <div class="video-box">
+            <div class="video-info">
+              <div class="video-section">
+                <video
+                  src="vid/video-4.mp4"
+                  class="videoPlayer"
+                  loop
+                  poster="img/video-4.jpeg"
+                ></video>
+                <span class="video-play-icon"><i class="bx bx-play"></i></span>
+              </div>
+              <div class="user-info">
+                <h5>aep.rexx</h5>
+                <p>
+                  parado no bailão #neymar #edit #neymaredit #fyp @nitineditssz
+                  @heatforchip @rexxx.vsp @akamarch @vspdinorex @ohio_vsp
+                  @vspdinorex @mehza.aep
+                </p>
+              </div>
+            </div>
+            <div class="video-desc">
+              <div class="user-profile">
+                <img src="img/user-8.jpeg" alt="" />
+                <span class="follow">
+                  <i class="bx bx-plus"></i>
+                </span>
+              </div>
+              <ul>
+                <li>
+                  <span class="like"><i class="bx bxs-heart"></i></span>
+                  <span>4M</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-message-rounded-dots"></i></span>
+                  <span>70k</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-bookmark"></i></span>
+                  <span>680k</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-share bx-flip-horizontal"></i></span>
+                  <span>1M</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- VIDEO 5 -->
+        <div class="video">
+          <div class="video-box">
+            <div class="video-info">
+              <div class="video-section">
+                <video
+                  src="vid/video-5.mp4"
+                  class="videoPlayer"
+                  loop
+                  poster="img/video-5.jpeg"
+                ></video>
+                <span class="video-play-icon"><i class="bx bx-play"></i></span>
+              </div>
+              <div class="user-info">
+                <h5>6markedits6</h5>
+                <p>Messi 2015 🕺 #messiedits #messi #leomessi #football</p>
+              </div>
+            </div>
+            <div class="video-desc">
+              <div class="user-profile">
+                <img src="img/user-9.jpeg" alt="" />
+                <span class="follow">
+                  <i class="bx bx-plus"></i>
+                </span>
+              </div>
+              <ul>
+                <li>
+                  <span class="like"><i class="bx bxs-heart"></i></span>
+                  <span>5.7M</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-message-rounded-dots"></i></span>
+                  <span>33.7k</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-bookmark"></i></span>
+                  <span>888.7k</span>
+                </li>
+                <li>
+                  <span><i class="bx bxs-share bx-flip-horizontal"></i></span>
+                  <span>900.4k</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SCRIPT LINK  -->
+    <script src="script.js"></script>
+  </body>
+</html>
